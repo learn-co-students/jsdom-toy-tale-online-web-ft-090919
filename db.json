@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 7
+      "likes": 8
     },
     {
       "id": 2,
@@ -51,7 +51,7 @@
     {
       "name": "robocop",
       "image": "https://vignette.wikia.nocookie.net/robocop/images/1/15/Richard_Eden_as_RoboCop.jpg/revision/latest?cb=20151108142633",
-      "likes": 1,
+      "likes": 3,
       "id": 9
     }
   ]

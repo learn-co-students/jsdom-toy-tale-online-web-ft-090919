@@ -12,6 +12,10 @@ function renderToy(toy) {
   collectionContainer.appendChild(card);
 }
 
+/*
+  Not good practice to pass around array elements blindly
+  but trying something different for fun (array isn't going to change)
+*/
 function buildToyCard(toy) {
   // [div, header, image, paragraph, button];
   const elements = getElements();
@@ -60,12 +64,14 @@ function assignHtmlAttributes(div, img, button, toy) {
   });
 }
 
+// appends text to each applicable element
 function assignTextContent(elements, text) {
   for (let i = 0; i < elements.length; i++) {
     elements[i].appendChild(text[i]);
   }
 }
 
+// appends child elements to card div
 function appendElements(elements) {
   let div;
 
